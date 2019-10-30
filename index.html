@@ -2,42 +2,56 @@
 <html>
     <head>
         <title>Student Assessment module home</title>
+        <!-- Responsiveness // required meta files -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
         <!-- Local files -->
-        <link href="resources/bootstrap.min.css">
-        <link href="resources/font-awesome.css">
-        <link href="resources/jqueryui.css">
+        <!-- build:css css/main.css -->
+        <link rel="stylesheet" href="resources/bootstrap.min.css">
+        <link rel="stylesheet" href="resources/font-awesome.min.css">
+        <link rel="stylesheet" href="resources/bootstrap-social.css">
+        <link href="css/index.css" rel="stylesheet">
+        <!-- endbuild -->
         <!-- CDN Files -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     </head>
     <body>
-
-        <div></div>
-
-        <div></div>
-
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-
-        <div></div>
+        <!-- Header nav bar -->
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="#" class="navbar-brand mr-auto"><img src="img/logo.png" height="30" width="41"></a>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                    </ul>
+                    <span class="navbar-text">
+                        <a data-toggle="modal" data-target="#loginModal">
+                            <span class="fa fa-sign-in"></span> Login
+                        </a>
+                    </span>
+                </div>
+            </div>        
+        </nav>
 
         <!-- Local files -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="resources/jqueryui.js"></script>
-        <script src="resources/jquery.min.js"></script>
+        <!-- build:js js/main.js -->
+        <script src="resources/jquery.slim.min.js"></script>
         <script src="resources/popper.min.js"></script>
         <script src="resources/bootstrap.min.js"></script>
+        <script src="js/index.js"></script>
+        <!-- endbuild -->
         <!-- CDN Files -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
     </body>
 </html>
