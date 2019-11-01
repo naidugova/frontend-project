@@ -3,10 +3,10 @@ body {
     z-index: 0;
 }
 .navbar-dark{
-    background-color: #004c70;
+    background-color: #034868;
 }
 .footer{
-    background-color:#006495;
+    background-color:#66b9e2;
     margin:0px auto;
     padding:20px 0px 20px 0px;
 }
@@ -16,5 +16,6 @@ body {
     color:white;
 }
 .footer-links{
-    color:#f2635f;
+    color:#38100f;
+    font-weight: 500;
 }
