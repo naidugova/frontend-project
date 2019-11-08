@@ -49,12 +49,12 @@
 
                                         <div class="form-group">
                                              
-                                            <label for="uploading" class="col-12 offset-sm-1">To upload any file</label>
-                                            <input type="file"class="col-12 offset-sm-1" id="file">
+                                            <label for="uploading" class=" offset-sm-1">To upload any file : </label> <span>
+                                            <input type="file" id="file"></span>
   
                                         </div>
                                         <div class="form-group row">
-                                            <input type="submit" class="btn btn-success  offset-sm-10" value="Done">
+                                            <input type="submit" class="btn btn-info  offset-sm-10" value="Post">
                                         </div>
                                         
                                         
@@ -64,12 +64,25 @@
                     </div>
                 </div>
         </div>
-
+        
+       
+        
 
         
         <div class="container-fluid">
             <div class="row ">
-                <div id="profile" class=" col-sm-2 d-none d-sm-block fixed-top shadow ml-2 mt-2 d" style="height: 400px; background-color:white">
+                <div id="profile" class=" col-sm-2 d-none d-sm-block fixed-top shadow ml-2 mt-2 rounded" style="height: 400px; background-color:white">
+                        <div class="osahan-user text-center">
+                                <div class="osahan-user-media">
+                                    <img class="mb-3 rounded-pill shadow-sm mt-5" width="100" height="100" src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="gurdeep singh osahan">
+                                    <div class="osahan-user-media-body">
+                                        <h6 class="mb-2">Gurdeep Singh</h6>
+                                        <p class="mb-1">+91 85680-79956</p>
+                                        <p>iamosahan@gmail.com</p>
+                                        <p class="mb-0 text-black font-weight-bold"><a class="text-primary mr-3" data-toggle="modal" data-target="#edit-profile-modal" href="#"><i class="icofont-ui-edit"></i> EDIT</a></p>
+                                    </div>
+                                </div>
+                            </div>
                     
                 </div>
 
@@ -97,19 +110,54 @@
                                     <span>Varun kumar </span> <span><cite>-class 10</cite></span>
                                 </div>
 
-                                <div class="row pl-5 mt-1 content">
+                                <div class="row pl-5 content pt-2 pb-4">
                                     <h5>jbvkj njsd  sjahu kjdsuhg kjsha fuhiuhnai ugyuf</h5>
                                 </div>
 
-                                <div class="row">
-                                    <div class="col-2 offset-10">
-                                        <div class="text-left ">
-                                            <a class="text-dark p-1 " data-toggle="modal" href="#reply"><i class="fa fa-reply"> Reply</i></a>
-                                        
-                                            <a class="text-dark p-1 " data-toggle="modal" href=""> <i class="fa fa-caret-down "> Replies </i></a>
-                                        </div>
+                                <div class="row ">
+                                    
+                                    <div class="col-2" id="replies">
+                                        <a class="text-dark p-1"  data-toggle="collapse" href="#collapseOne"  > <i class="fa fa-caret-down "> Replies </i></a>
                                     </div>
+                                    
+                                    <div class="col-1 offset-9">
+                                        <a class="text-dark p-1 " data-toggle="modal" href="#reply"><i class="fa fa-reply"> Reply</i></a>
+                                    </div>
+
                                 </div>
+                                <div class="row">
+                                        <div class="col">
+                                            <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#replies">
+                                                <div class="card-body">
+                                                    <hr>
+                                                    <div class="row align-items-center">
+                                                        <a href="#">
+                                                            <img src="media/dp1.png" class="img-responsive img rounded-circle float-left pl-2 " alt="dp" width="40" height="40">
+                                                        </a>
+                                                        <span>Varun kumar </span> <span><cite>-class 10</cite></span>
+
+                                                    </div>
+                                                    <div class="row row-items-center content">
+                                                        <h5>jbvkj njsd  sjahu kjdsuhg kjsha fuhiuhnai ugyuf</h5>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="row align-items-center">
+                                                        <a href="#">
+                                                            <img src="media/dp1.png" class="img-responsive img rounded-circle float-left pl-2 " alt="dp" width="40" height="40">
+                                                        </a>
+                                                        <span>Varun kumar </span> <span><cite>-class 10</cite></span>
+
+                                                    </div>
+                                                    <div class="row row-items-center content">
+                                                        <h5>jbvkj njsd  sjahu kjdsuhg kjsha fuhiuhnai ugyuf</h5>
+                                                    </div>
+                                                    
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                                 
                             </div>
                             
                         </div>
@@ -129,14 +177,28 @@
                                     <h4>jbvkj njsd  sjahu kjdsuhg kjsha fuhiuhnai ugyuf</h4>
                                 </div>
                                 <div class="row">
-                                    <div class="col-2 offset-10">
-                                        <div class="text-left ">
-                                            <a class="text-dark p-1 " data-toggle="modal" href="#reply"><i class="fa fa-reply"> Reply</i></a>
-                                            
-                                            <a class="text-dark p-1 " data-toggle="modal" href="#"> <i class="fa fa-caret-down "> Replies </i></a>
+                                    
+                                        <div class="col-2" id="replies">
+                                            <a class="text-dark p-1"  data-toggle="collapse" href="#collapseOne"  > <i class="fa fa-caret-down "> Replies </i></a>
                                         </div>
-                                    </div>
+                                        
+                                        <div class="col-1 offset-9">
+                                            <a class="text-dark p-1 " data-toggle="modal" href="#reply"><i class="fa fa-reply"> Reply</i></a>
+                                        </div>
+    
                                 </div>
+                                <div class="row">
+                                        <div class="col">
+                                            <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#replies">
+                                                <div class="card-body">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+
+                                
+
                             </div>
                                 
                         </div>
