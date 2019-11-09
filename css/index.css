@@ -10,7 +10,8 @@ body {
 }
 
 #back1{
-    background-image: url('../media/nice_back.jpg');
+    /* background-image: url('../media/nice_back.jpg'); */
+    background-color: azure;
 }
 #back2{
     background-image: url('../media/black-back.png');
